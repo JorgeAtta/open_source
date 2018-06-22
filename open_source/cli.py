@@ -9,7 +9,7 @@ import sys
 import click
 
 # Local imports
-import open_source
+import open_source.open_source as open_source
 
 
 @click.group()

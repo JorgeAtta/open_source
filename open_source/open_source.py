@@ -9,7 +9,16 @@ import string
 def check_palindrome(word):
     """Check if a word is a palindrome."""
     reverse = word[::-1]
-    return reverse == word
+    word = word.upper()
+    reverse = reverse.upper()
+    
+    if (word == reverse):
+        return True
+    else:
+        return False
+
+    
+
 
 
 def random_letter(word=None):
